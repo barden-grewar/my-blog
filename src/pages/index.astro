@@ -1,4 +1,6 @@
 ---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 ---
 
@@ -11,11 +13,13 @@ import '../styles/global.css';
 		<title>Home page</title>
 	</head>
 	<body>
-		<!-- Nav links start -->
-		<a href="/">Home</a>
-  		<a href="/about/">About</a>
-  		<a href="/blog/">Blog</a>
-		<!-- Nav links end -->
-  	<h1>My home page</h1>
+		<!-- Nav start -->
+		<Header />
+		<!-- Nav end -->
+  		<h1>My home page</h1>
+
+		<!-- Footer start -->
+		<Footer />
+		<!-- Footer end -->
 	</body>
 </html>
